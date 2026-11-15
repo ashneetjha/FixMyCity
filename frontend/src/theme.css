@@ -1,0 +1,8 @@
+:root[data-theme="dark"]{--ink:#f0ecf8;--muted:#b9b0c8;--lilac:#2a2140;--line:#403551;--paper:#17121f}
+:root[data-theme="dark"] .metrics,:root[data-theme="dark"] .issue-card,:root[data-theme="dark"] .filters button,:root[data-theme="dark"] .modal,:root[data-theme="dark"] .map-label{background:#211a2e}
+:root[data-theme="dark"] .issues-section{background:#1c1627}
+:root[data-theme="dark"] .secondary{background:#302547;color:#d9cbff}
+:root[data-theme="dark"] .map-card{filter:saturate(.85) brightness(.78)}
+:root[data-theme="dark"] .modal input,:root[data-theme="dark"] .modal select,:root[data-theme="dark"] .modal textarea{background:#17121f;border-color:#4c3f60;color:var(--ink)}
+.theme-toggle{background:transparent;color:var(--muted);display:grid;place-items:center;padding:9px;border-radius:9px}.theme-toggle:hover{background:var(--lilac);color:var(--purple)}
+@media(max-width:780px){.theme-toggle{margin-left:auto}}
