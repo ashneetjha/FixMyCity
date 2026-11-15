@@ -5,4 +5,8 @@ dist/
 target/
 .env
 *.log
+.DS_Store
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
 
